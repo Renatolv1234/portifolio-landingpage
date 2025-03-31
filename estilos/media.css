@@ -1,0 +1,33 @@
+@media screen and (max-width: 760px)/*Quando o site chegar o na largura de 760px ele aplica as configs abaixo*/{
+    
+    header{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    main{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    h2{
+        font-size: 38px;
+    }
+
+    form{
+        margin: 0 auto;
+        width: 100%;
+    }
+
+    input{
+        align-self: center;/*Alinha ele mesmo no centro*/
+    }
+
+    img{
+        display: none;
+    }
+
+    ul{
+        text-align: center;
+    }
+}
